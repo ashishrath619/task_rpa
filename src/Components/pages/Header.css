@@ -1,0 +1,29 @@
+.headerComponent {
+  border: 2px solid red;
+}
+
+.logoHeader {
+  margin-left: 2rem;
+}
+
+.header_menu {
+  padding-right: 2rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .header_menu {
+    background: #e6e6e6;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    height: auto;
+    transition: all 0.3s ease 0s;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header_menu {
+    background: #e6e6e6;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    height: auto;
+    transition: all 0.3s ease 0s;
+  }
+}
